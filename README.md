@@ -9,6 +9,9 @@ graph TD;
     F --> H[Combine Kernel & Feature]
     H --> I[Final Mask Predictions]
 ```
+### 部分结果（实验没有跑完）
+![Alt text](image.png)
+
 ### 数据集（未上传）
 默认使用：data/Cocoon_Morbid_coco
 
