@@ -61,4 +61,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/solov2/a_solov2_r50_f
 CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/solov2/a_solov2_r50_fpn_1x_coco_ResNeXt_range_M3.py 4 --work-dir ./work_dir_10_12/solov2-ResNeXt_range_M3
 CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/solov2/a_solov2_r50_fpn_1x_coco_ResNeXt_range_M4.py 4 --work-dir ./work_dir_10_12/solov2-ResNeXt_range_M4
 ```
+### bast modle
+```
+python demo/video_demo.py demo/2.mp4 work_dir_10_12/solov3/a_solov3_r50_fpn_1x_coco.py work_dir_10_12/solov3/epoch_100.pth --out demo/2_mask.mp4
 
+```
